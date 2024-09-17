@@ -8,6 +8,7 @@ interface Game {
   developer: string;
   ratingScore: number;
   image: string;
+  trailer: string;
 }
 
 const games: Game[] = [
@@ -22,6 +23,7 @@ const games: Game[] = [
     ratingScore: 4,
     image:
       "https://cdn1.epicgames.com/offer/14ee004dadc142faaaece5a6270fb628/EGS_TheWitcher3WildHuntCompleteEdition_CDPROJEKTRED_S1_2560x1440-82eb5cf8f725e329d3194920c0c0b64f",
+    trailer: 'https://youtu.be/XHrskkHf958?si=OPvFkifoeJXJmqXZ',
   },
   {
     id: 2,
@@ -34,6 +36,7 @@ const games: Game[] = [
     ratingScore: 5,
     image:
       "https://store-images.s-microsoft.com/image/apps.58752.68182501197884443.ac728a87-7bc1-4a0d-8bc6-0712072da93c.0cf58754-9802-46f8-8557-8d3ff32a627a?q=90&w=480&h=270",
+    trailer: 'https://youtu.be/gmA6MrX81z4?si=VnRdKuz__1QOLxM_',
   },
   {
     id: 3,
@@ -46,6 +49,7 @@ const games: Game[] = [
     ratingScore: 2,
     image:
       "https://assets.nuuvem.com/image/upload/v1/products/5e49d770d597ec0f96e130bd/sharing_images/tmffdu3gugeb5al41qil.jpg",
+    trailer: 'https://youtu.be/zw47_q9wbBE?si=5WpNthEL0DKyPl79',
   },
   {
     id: 4,
@@ -58,6 +62,7 @@ const games: Game[] = [
     ratingScore: 4,
     image:
       "https://cdn2.unrealengine.com/25br-s25-egs-launcher-pdp-2560x1440-alt-logo-2560x1440-130a7d39cc26.jpg",
+    trailer: 'https://youtu.be/WJW-bzXZM8M?si=hquv5302bxk-VuC8',
   },
   {
     id: 5,
@@ -70,6 +75,7 @@ const games: Game[] = [
     ratingScore: 1,
     image:
       "https://cyberpunk-static.qtlglb.com/build/images/social-thumbnail-en-ddcf4d23.jpg",
+    trailer: 'https://youtu.be/UnA7tepsc7s?si=CPcV7HalPRByaCwf',
   },
 ];
 
